@@ -1,0 +1,66 @@
+	<!DOCTYPE html> 
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+		<script src="js/style.js" type="text/javascript"></script>
+		<script src="../../js/amber.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			loadAmber({
+			files: ['Easnoth-Core-Tools.js','Easnoth-Core-Display.js','Easnoth-MapEditor.js','Easnoth-Tests.js'],
+			prefix: 'projects/easnoth/js', 
+			ready: function() {
+			  $(function() {
+				//onload...
+			  });
+			}}); 
+		</script>
+		<title>Effect</title>
+	</head>
+	<body class="editor"onload="adjust();smalltalk.MapEditorEventManager._newWithMapIndex_(1);"> <!--onResize="adjust();smalltalk.Map._newWithMapIndex_(1);" -->
+        <canvas id="main" width="1366" height="768"> 
+               Your browser does not support this content. Dowload Chrome, Firefox, IE 9+, Chrome plugin, ...
+        </canvas>
+		
+		<div class="menuEditor" id="menuEditor">
+			<h2>Map Editor</h2>
+			<h2>Currently editing</h2>
+			<form name="radioForm">
+				<table class="align">
+						<tr><td><input type="radio" class="radioDrawedObjectType" name="radioElement" value="Tile" checked="true">tiles</input><br/></td></tr>
+						<tr><td><input type="radio" class="radioDrawedObjectType" name="radioElement" value="Overtile">overtiles</input><br/></td></tr>
+						<tr><td><input type="radio" class="radioDrawedObjectType" name="radioElement" value="Monster">monsters</input><br/></td></tr>
+						<tr><td><input type="radio" class="radioDrawedObjectType" name="radioElement" value="Building">buildings</input><br/></td></tr>
+				</table>
+			</form>
+			<h2>Currently adding</h2>
+			<div class="selector">
+			<button class="previous"><<</button>
+			<image class="imageEdited" name="imageEdited" src="ressources/images/tiles/dirt.png"/>
+			<button class="next">>></button>
+			<br/>
+			<button>Flush</button>
+			</div>
+			<br/>
+			<br/>
+			<button>Générer le xml</button>
+			<br/>
+			<button class="up">up</button>
+			<button class="down">down</button>
+			<button class="left">left</button>
+			<button class="right">right</button>
+			<br/>
+			<button class="mirrorHorizontal">horizontal mirror</button>
+			<button class="mirrorVertical">vertical mirror</button>
+			<br/>
+			<p>care error with zooms and algoMouseToHex<br/>
+			mirror doesn't support algo mouseToHex</p>
+			<button>zoom +</button>
+			<button>zoom -</button>
+			<br/>
+			<button onclick="smalltalk.Browser._open()">class browser</button>
+		</div>
+		
+		<!-- <input type="text" id="loadBar" style="display:none"/> -->
+</body>
+</html>

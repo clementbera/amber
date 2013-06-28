@@ -1,0 +1,215 @@
+/*general*/
+
+#global {
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	width: ;
+	text-align: middle;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+body {
+	overflow: hidden;
+	padding:0;
+	margin:0;
+	background-color:#ccc;
+	color:#000;
+	font-family: JasmineUPC;
+}
+
+h4, h5, ul {
+	margin: 1px;
+	padding: 1px;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+button {
+	margin: 2px;
+	padding: 2px;
+}
+
+/*intro.html*/
+
+.intro {
+    position: absolute;
+	top:10%;
+	left:10%;
+	height:80%;
+    width:80%;
+	padding:0;
+	margin:0;
+	background-color:#000;
+	background-image:url(../ressources/images/intro.jpg);
+	background-repeat:no-repeat;
+	background-attachment:inherit;
+	background-position:center bottom;
+	background-size:100% auto;
+}
+
+.intro h1 {
+	padding:0px;
+	margin:1%;
+	color:#fff;
+	font-size:2.8em;
+	text-align:center;
+}
+
+.intro .menu {
+	text-align: center;
+	margin:1%;
+	list-style-type:none;
+}
+
+.intro .menu li{
+	font-size:1.3em;
+	margin:3%;
+	color: #fff;
+}
+
+.intro .menu li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.intro .menu li a:hover{
+	color:#acc;
+	text-decoration:none;
+}
+
+/*main.html*/
+
+#background {
+	background-color: #ccc;
+	background-repeat:no-repeat;
+}
+
+#monster canvas {
+	border: none;
+}
+
+canvas {
+    text-align:center;
+	margin:0 auto;
+	border: 1px solid black; 
+    /*margin-left: 100px;*/
+}
+
+.layer {
+    position: absolute;
+	top:0px;
+	left:0px;
+	background-color: transparent;
+}
+
+.loadBar {
+	position:absolute;
+	top:30%;
+	left:20%;
+}
+/*fight.html*/
+
+.tableStats {
+	width: 96%;
+	margin-left: 2%;
+}
+
+.monsterWatcher {
+	border: 1px solid black;
+	background-color: #ccaa6a;
+}
+
+.monsterWatcher img{
+	border: 1px solid black;
+	width: 72px;
+	height: 72px;
+}
+
+.dices {
+	border: 1px solid black;
+	background-color: #aaaacc;
+}
+
+.tileWatcher {
+	border: 1px solid black;
+	background-color: #ccccaa;
+}
+
+.tileWatcher img{
+	border: 1px solid black;
+	width: 72px;
+	height: 72px;
+}
+
+.mapWatcher {
+	border: 1px solid black;
+	background-color: #aacccc;
+}
+
+.stuff {
+	border: 1px solid black;
+	background-color: #aaccaa;
+}
+
+.editor .menuEditor {
+	font-size: 75%;
+}
+
+/*mapEditor.html*/
+
+.editor #main {
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;	
+	border:none;
+	text-align:left;
+}
+
+.editor {
+	display:inline;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color:#ccc;
+}
+
+.editor .menuEditor {
+	text-align: center;
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+	padding:0;
+    width:20%;
+	/*background-image:url(../ressources/images/toolBox.jpg);*/
+	background-color:#ccc;
+	background-size:100% auto;
+	background-repeat: repeat-y;
+}
+
+.selector {
+	margin-left:20%;
+	width:60%;
+	background-color:#cecece;
+	border: 1px solid #333333;
+}
+
+.align {
+	margin-left:30%;
+	background-color:#cecece;
+	border: 1px solid #333333;
+}
+
+.align tr {
+}
+
+.align tr td {
+	text-align: left;
+}

@@ -1,0 +1,10 @@
+{
+	"army" : "human kingdom",
+	"troop" : {"move": 2, "dices": 4, "attack": 30, "range": 1, "special":"none"},
+	"troopHeros" : {"move": 2, "dices": 5, "attack": 40, "range": 1, "special":"none"},
+	"range" : {"move": 2, "dices": 4, "attack": 22, "range": 4, "special":"none"},
+	"rangeHeros" : {"move": 2, "dices": 5, "attack": 32, "range": 4, "special":"none"},
+	"cavalry" : {"move": 4, "dices": 4, "attack": 30, "range": 1, "special":"none"},
+	"cavalryHeros" : {"move": 4, "dices": 5, "attack": 40, "range": 1, "special":"none"},
+	"mage" : {"move": 1, "dices": 5, "attack": 40, "range": 1, "special":"none"}
+}

@@ -1,0 +1,27 @@
+	<!DOCTYPE html> 
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+		<script src="../../js/amber.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			
+			loadAmber({
+			files: ['Easnoth-Export','Easnoth-Announcements.js', 'Easnoth-Bootstrap', 'Easnoth-GameAndPlayers', 'Easnoth-GameStates', 'Easnoth-MapMenu', 'Easnoth-MapModel', 'Easnoth-MapUI', 'Easnoth-MonsterStrategies'],
+			prefix: 'projects/easnoth/js',
+            ready: function() {smalltalk.CWStartMenu._start()}/*,
+			deploy: true*/});
+		</script>
+		<title>Easnoth : Battle Arena</title>
+	</head>
+	<body class="editor"> 
+		<div id='global'>
+	        <canvas id="background" width="1136" height="640"> 
+	               Your browser does not support this content. Dowload Chrome, Firefox, IE 9+, Chrome plugin, ...
+	        </canvas>
+			<div class='layer' id='got'></div>
+			<div class='layer' id='monster'></div>
+	        <canvas id="eventManager" class="layer" width="1136" height="640"></canvas>
+		</div>
+	</body>
+</html>

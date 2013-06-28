@@ -1,0 +1,311 @@
+{
+	"name": "foo",
+	"row": [
+		{
+			"cells": [
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw",
+					"overtile2": "savanna-sw-nw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt",
+					"overtile1": "road-s-sw"
+				},
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt",
+					"overtile1": "road-s-sw"
+					
+				},
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-s-sw"
+				},
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-s-sw"
+				},
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt", 
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				},
+				{
+					"tile": "savanna"
+				}
+			]
+		},
+		{
+			"cells": [
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "road-s-sw"
+				},
+				{
+					"tile": "road"
+				},
+				{
+					"tile": "dirt", 
+					"overtile1": "road-n-ne"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt"
+				},
+				{
+					"tile": "dirt",
+					"overtile1": "savanna-s-sw"
+				}
+			]
+		}
+	]
+}

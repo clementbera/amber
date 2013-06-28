@@ -1,0 +1,10 @@
+{
+	"army" : "elves",
+	"troop" : {"move": 2, "dices": 2, "attack": 60, "range": 1, "special":"none"},
+	"troopHeros" : {"move": 3, "dices": 3, "attack": 60, "range": 1, "special":"none"},
+	"range" : {"move": 2, "dices": 2, "attack": 50, "range": 5, "special":"none"},
+	"rangeHeros" : {"move": 3, "dices": 3, "attack": 50, "range": 5, "special":"none"},
+	"cavalry" : {"move": 4, "dices": 2, "attack": 60, "range": 1, "special":"none"},
+	"cavalryHeros" : {"move": 5, "dices": 3, "attack": 60, "range": 1, "special":"none"},
+	"mage" : {"move": 1, "dices": 5, "attack": 40, "range": 1, "special":"none"}
+}

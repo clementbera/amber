@@ -1,0 +1,10 @@
+{
+	"army" : "dwarves",
+	"troop" : {"move": 1, "dices": 5, "attack": 40, "range": 1, "special":"none"},
+	"troopHeros" : {"move": 1, "dices": 6, "attack": 50, "range": 1, "special":"none"},
+	"range" : {"move": 1, "dices": 2, "attack": 50, "range": 4, "special":"none"},
+	"rangeHeros" : {"move": 1, "dices": 3, "attack": 60, "range": 4, "special":"none"},
+	"cavalry" : {"move": 3, "dices": 4, "attack": 35, "range": 1, "special":"fly"},
+	"cavalryHeros" : {"move": 3, "dices": 5, "attack": 45, "range": 1, "special":"fly"},
+	"mage" : {"move": 1, "dices": 5, "attack": 40, "range": 1, "special":"none"}
+}
